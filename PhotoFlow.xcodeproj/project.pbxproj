@@ -19,6 +19,7 @@
 		76183C2F183DCBCC0050E798 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76183C17183DCBCC0050E798 /* UIKit.framework */; };
 		76183C37183DCBCC0050E798 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76183C35183DCBCC0050E798 /* InfoPlist.strings */; };
 		76183C39183DCBCC0050E798 /* PhotoFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76183C38183DCBCC0050E798 /* PhotoFlowTests.m */; };
+		765BA0CA183DD54C000B5871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765BA0C9183DD54C000B5871 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		76183C34183DCBCC0050E798 /* PhotoFlowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoFlowTests-Info.plist"; sourceTree = "<group>"; };
 		76183C36183DCBCC0050E798 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		76183C38183DCBCC0050E798 /* PhotoFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoFlowTests.m; sourceTree = "<group>"; };
+		765BA0C9183DD54C000B5871 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				76183C22183DCBCC0050E798 /* PFAppDelegate.h */,
 				76183C23183DCBCC0050E798 /* PFAppDelegate.m */,
+				765BA0C9183DD54C000B5871 /* Main.storyboard */,
 				76183C25183DCBCC0050E798 /* Images.xcassets */,
 				76183C1A183DCBCC0050E798 /* Supporting Files */,
 			);
@@ -223,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765BA0CA183DD54C000B5871 /* Main.storyboard in Resources */,
 				76183C1E183DCBCC0050E798 /* InfoPlist.strings in Resources */,
 				76183C26183DCBCC0050E798 /* Images.xcassets in Resources */,
 			);
@@ -447,6 +451,7 @@
 				76183C3E183DCBCC0050E798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76183C3F183DCBCC0050E798 /* Build configuration list for PBXNativeTarget "PhotoFlowTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +460,7 @@
 				76183C41183DCBCC0050E798 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
