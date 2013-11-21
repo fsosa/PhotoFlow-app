@@ -22,6 +22,7 @@
 		765BA0CA183DD54C000B5871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765BA0C9183DD54C000B5871 /* Main.storyboard */; };
 		76C6882C183E89DD007FFC5D /* PFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C6882B183E89DD007FFC5D /* PFHomeViewController.m */; };
 		76C6882E183E89FE007FFC5D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C6882D183E89FE007FFC5D /* CoreLocation.framework */; };
+		76C68830183E9055007FFC5D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C6882F183E9055007FFC5D /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		76C6882A183E89DD007FFC5D /* PFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFHomeViewController.h; sourceTree = "<group>"; };
 		76C6882B183E89DD007FFC5D /* PFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFHomeViewController.m; sourceTree = "<group>"; };
 		76C6882D183E89FE007FFC5D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		76C6882F183E9055007FFC5D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C68830183E9055007FFC5D /* AssetsLibrary.framework in Frameworks */,
 				76C6882E183E89FE007FFC5D /* CoreLocation.framework in Frameworks */,
 				76183C16183DCBCC0050E798 /* CoreGraphics.framework in Frameworks */,
 				76183C18183DCBCC0050E798 /* UIKit.framework in Frameworks */,
@@ -104,6 +107,7 @@
 		76183C12183DCBCC0050E798 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				76C6882F183E9055007FFC5D /* AssetsLibrary.framework */,
 				76C6882D183E89FE007FFC5D /* CoreLocation.framework */,
 				76183C13183DCBCC0050E798 /* Foundation.framework */,
 				76183C15183DCBCC0050E798 /* CoreGraphics.framework */,
