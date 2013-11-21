@@ -20,6 +20,8 @@
 		76183C37183DCBCC0050E798 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 76183C35183DCBCC0050E798 /* InfoPlist.strings */; };
 		76183C39183DCBCC0050E798 /* PhotoFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76183C38183DCBCC0050E798 /* PhotoFlowTests.m */; };
 		765BA0CA183DD54C000B5871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765BA0C9183DD54C000B5871 /* Main.storyboard */; };
+		76C6882C183E89DD007FFC5D /* PFHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C6882B183E89DD007FFC5D /* PFHomeViewController.m */; };
+		76C6882E183E89FE007FFC5D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C6882D183E89FE007FFC5D /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		76183C36183DCBCC0050E798 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		76183C38183DCBCC0050E798 /* PhotoFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoFlowTests.m; sourceTree = "<group>"; };
 		765BA0C9183DD54C000B5871 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		76C6882A183E89DD007FFC5D /* PFHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFHomeViewController.h; sourceTree = "<group>"; };
+		76C6882B183E89DD007FFC5D /* PFHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFHomeViewController.m; sourceTree = "<group>"; };
+		76C6882D183E89FE007FFC5D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76C6882E183E89FE007FFC5D /* CoreLocation.framework in Frameworks */,
 				76183C16183DCBCC0050E798 /* CoreGraphics.framework in Frameworks */,
 				76183C18183DCBCC0050E798 /* UIKit.framework in Frameworks */,
 				76183C14183DCBCC0050E798 /* Foundation.framework in Frameworks */,
@@ -98,6 +104,7 @@
 		76183C12183DCBCC0050E798 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				76C6882D183E89FE007FFC5D /* CoreLocation.framework */,
 				76183C13183DCBCC0050E798 /* Foundation.framework */,
 				76183C15183DCBCC0050E798 /* CoreGraphics.framework */,
 				76183C17183DCBCC0050E798 /* UIKit.framework */,
@@ -114,6 +121,8 @@
 				765BA0C9183DD54C000B5871 /* Main.storyboard */,
 				76183C25183DCBCC0050E798 /* Images.xcassets */,
 				76183C1A183DCBCC0050E798 /* Supporting Files */,
+				76C6882A183E89DD007FFC5D /* PFHomeViewController.h */,
+				76C6882B183E89DD007FFC5D /* PFHomeViewController.m */,
 			);
 			path = PhotoFlow;
 			sourceTree = "<group>";
@@ -249,6 +258,7 @@
 			files = (
 				76183C24183DCBCC0050E798 /* PFAppDelegate.m in Sources */,
 				76183C20183DCBCC0050E798 /* main.m in Sources */,
+				76C6882C183E89DD007FFC5D /* PFHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
